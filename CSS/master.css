@@ -43,7 +43,7 @@ nav .master-nav li {
 
 nav .master-nav li a {
     text-decoration: none;
-    color: var(--lead-color);
+    color: rgb(190, 188, 188);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -58,7 +58,8 @@ nav .master-nav li a:hover {
     margin: 100px 0 25px;
     word-spacing: 6px;
     font-weight: 200;
-    color: var(--lead-color);
+    color: rgb(190, 188, 188);
+
 }
 
 .contant-img p {
@@ -96,6 +97,11 @@ hr {
     height: 3px;
     border: 1px solid var(--orange-color);
     background-color: var(--orange-color);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .box {
@@ -168,8 +174,8 @@ i {
 }
 
 .img-app {
-    width: 40%;
-    height: 497px;
+    width: 65%;
+    height: 515px;
 }
 
 .links {
@@ -196,6 +202,7 @@ i {
 
 #Cities img {
     width: 100%;
+    border-radius: 5px;
 }
 
 #Cities a {
@@ -346,6 +353,14 @@ form .btn {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+input[placeholder="your name"] {
+    padding-left: 10px;
+}
+
+input[type="email"] {
+    padding-left: 10px;
 }
   /* End Contact form Css */
   /* Start Foot Devices Css */
